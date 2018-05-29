@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{38ff586e-3d78-44cf-9918-d3005aa56b70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\duck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stupidThings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mesh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\duck.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\constants.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\phongFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\phongVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\duckFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\duckVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\waterFS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\waterVS.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\negy.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\negz.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\posx.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\posy.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\posz.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\negx.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
